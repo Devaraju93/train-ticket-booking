@@ -70,11 +70,11 @@ The **Train Seat Booking System** is a full-stack web application that allows us
 
 3. **Set Up Environment Variables**:
    - Create `.env` files in the `server` and `client` directories.
-   - Example for **server** `.env`:
+   -    - Example for **server** `.env`:
      ```env
-  DATABASE_URL="postgresql://neondb_owner:QK3JgupZxj9G@ep-odd-hall-a5wmxy1k.us-east-2.aws.neon.tech/neondb?sslmode=require"
-JWT_SECRET="aj3kJ23j23jdsf@#Qasj213ASDka!#j123lMZfsLx2"
-PORT=8000
+     DATABASE_URL="postgresql://neondb_owner:QK3JgupZxj9G@ep-odd-hall-a5wmxy1k.us-east-2.aws.neon.tech/neondb?sslmode=require"
+    JWT_SECRET="aj3kJ23j23jdsf@#Qasj213ASDka!#j123lMZfsLx2"
+    PORT=8000
      ```
    - Example for **client** `.env`:
      ```env
